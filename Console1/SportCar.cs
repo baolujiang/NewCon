@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Console1
 {
-	public class SportCar:Car
-	{
+    public class SportCar : Car
+    {
 
-		public void MakeNoise()=>Console.WriteLine("Hump Hump Hump");
-	}
+        public void MakeNoise() => Console.WriteLine("Hump Hump Hump");
+    }
 }

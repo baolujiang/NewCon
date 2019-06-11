@@ -10,6 +10,14 @@ namespace Console1
     {
         static void Main(string[] args)
         {
+
+            var c = new SportCar { Name = "Camry" };
+            Console.WriteLine(c);
+            c.Move();
+            c.MakeNoise();
+
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadLine();
         }
     }
 }
