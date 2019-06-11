@@ -9,13 +9,15 @@ namespace Console1
     public class Car
     {
 
-    	public string Name {get;set;}
+        public string Name { get; set; }
 
-    	public void Move()
-    	{
-    		Console.WriteLine("Moving");
-    	}
+        public void Move()
+        {
+            Console.WriteLine("Moving");
+        }
 
-    	public override string ToString() => Name;
+        public override string ToString() => Name;
+
+        public override int GetHashCode() => this.Name.GetHashCode();
     }
 }
